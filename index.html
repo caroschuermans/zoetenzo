@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Zoet en zo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Gerechten</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Over ons</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item carousel-photo1 active">
+        
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-photo2">
+        
+
+        <div class="container">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carousel-photo3">
+        
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row text-center">
+      <div class="col-lg-3">
+        <img class="pannenkoek" src="img/pannenkoek.jpg" alt="">
+
+        <h2>Pannenkoeken</h2>
+        <p><a class="btn btn-secondary" href="#">Click here &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-3">
+        <img class="wafel" src="img/wafel.jpg" alt="">
+
+        <h2>Wafels</h2>
+        <p><a class="btn btn-secondary" href="#">Click here &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-3">
+        <img class="ijs" src="img/ijs.jpg" alt="">
+
+        <h2>IJs</h2>
+        <p><a class="btn btn-secondary" href="#">Click here &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-3">
+        <img class="latte" src="img/latte.jpg" alt="">
+
+        <h2>Latte</h2>
+        <p><a class="btn btn-secondary" href="#">Click here &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Foodtruck festival</h2>
+        <p class="lead">Mobiele keukentjes toveren vlaanderens mooiste parken om tot één groot sfeervol openlucht restaurant. We serveren het lekkerste eten, de beste wijnen en overheerlijke gin-tonics & cocktails. Je beleefd een magisch gezellige sfeer, waar akoestische muzikanten en vintage dj’s zorgen voor subliem muzikaal genot.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/festival.jpg" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Milieuvriendelijk</h2>
+        <p class="lead">Met onze foodtruck willen we aantonen dat de dingen simpeler kunnen, met minder afval, biologisch verantwoorde producten, … We willen jullie laten inzien dat je ook van de simpelere dingen kan genieten. Daarom zijn onze porties perfect afgestemd en word er gebruik gemaakt van biologisch afbreekbare verpakkingen. Van het bedrag dat je betaald gaat 5% naar een goed doel, namelijk de BFVB (Belgische federatie van voedselbanken). Ook zal alles dat niet verkocht is aan de Schenkingsbeurs geschonken worden, zodat ook armere mensen eens lekker verwend kunnen worden.
+</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/plant.jpg" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Team</h2>
+        <p class="lead">Het team van Zoet en zo is een zeer hechte groep. We hebben allemaal een passie voor pannenkoeken, wafels en ijs en willen die graag met jullie delen. Ons doel is om lach op jullie gezicht te toveren met onze overheerlijke zoetigheden.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/team.jpg" alt="">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2020-2021 Caro Schuermans &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

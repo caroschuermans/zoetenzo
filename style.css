@@ -1,0 +1,88 @@
+/* =========================================
+    Default Theme
+    ----------------------------------------
+    Fonts: Dosis
+    ----------------------------------------
+    Colors:
+        Dark Blue:         #335e7b
+        Light Blue:        #9dd3cf
+        Dark Orange:       #ec652a
+        Light Orange:      #f5a26e
+
+           
+============================================ */
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* =========================================
+
+                  RESPONSIVE
+============================================ */
+
+main{
+    background-color: #335e7b
+}
+
+h2{
+    color: #9dd3cf;
+}
+
+p{
+    color: white;
+}
+
+.featurette-divider{
+    color: white;
+}
+
+.pannenkoek{
+    border-radius: 50cm;
+}
+
+.wafel{
+    border-radius: 50cm;
+}
+
+.ijs{
+    border-radius: 50cm;
+}
+
+.latte{
+    border-radius: 50cm;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+.bg-dark{
+    background-color: #9dd3cf !important;
+}
+
+.nav-link{
+    color: #335e7b !important; 
+}
+
+.navbar-brand{
+    color: #335e7b !important;
+}
+
+.carousel-photo1{
+    background: url("img/siroop.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.carousel-photo2{
+    background: url("img/chocolade.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.carousel-photo3{
+    background: url("img/aardbei.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+main{
+    padding-bottom: 1cm;
+}
